@@ -1,3 +1,24 @@
-Copyright (c) 2026 Chad Holland. All rights reserved.
-​PROPRIETARY AND CONFIDENTIAL.
-​This repository contains the Functional Specification and Telemetry Logs for the Sovereign Suite. Unauthorized copying, modification, distribution, or reverse engineering of the core geometric governance logic, topological kernels, or associated proprietary algorithms is strictly prohibited.
+# Sovereign Suite v0.1.1-ALPHA | Proprietary License & Specification Agreement
+**Copyright (c) 2026 Chad Holland. All rights reserved.**
+
+## 1. PROPRIETARY AND CONFIDENTIAL
+This repository contains the Functional Specification, Telemetry Logs, and Architectural Blueprints for the Sovereign Suite. Unauthorized copying, modification, distribution, or reverse engineering of the core geometric governance logic, topological kernels, or associated proprietary algorithms is strictly prohibited.
+
+## 2. LIMITED VIEWING GRANT
+Access is provided for public audit, peer review, and educational purposes only. This grant does not include the right to execute, compile, link, or distribute the code or its logic in any environment—personal or commercial—without express written consent from the Architect.
+
+## 3. COMMERCIAL USE & LICENSING
+Usage of the Sovereign Suite or its governance logic for commercial products, enterprise integration, or revenue-generating services is strictly prohibited without a valid Commercial License. For licensing inquiries or partnership proposals, contact the Architect at: **holland202@gmail.com**.
+
+## 4. AI TRAINING & SCRAPING RESTRICTIONS
+Use of this specification, its telemetry logs, or its underlying mathematical logic to train, fine-tune, or validate third-party Large Language Models (LLMs) or automated reasoning agents is strictly prohibited.
+
+## 5. LIMITATION OF LIABILITY
+Provided "as is." The Architect is not liable for thermal exceedance, hardware fatigue, or logic drift resulting from the unauthorized implementation of this specification.
+
+---
+### **SUPPORT THE ARCHITECT**
+Independent research on the Sovereign Suite and the **Veritas Gate** is a self-funded endeavor. Support for this project directly assists with the Architect’s family medical expenses and the continued development of hardware-aligned AI.
+
+* **Inquiries & Support:** holland202@gmail.com
+* **Sponsorship/Donations:** paypal.me/chadholland0
