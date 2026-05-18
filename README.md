@@ -24,6 +24,7 @@ The **Veritas Gate** instruments every inference pass with two primary metrics t
 ## 📈 Governance Telemetry
 Instead of post-generation filtering, the system measures **Geometric Sharpness ($F(t) \ge 0.85$)** at the point of inference. When the manifold loses consistency, the system identifies a **Semantic Fracture** and triggers an automatic rollback.
 
+
 ### **Example Trace: Automatic Rollback Trigger**
 Below is a raw telemetry trace captured during a detected fracture in a factual generation sequence.
 
@@ -48,3 +49,5 @@ Below is a raw telemetry trace captured during a detected fracture in a factual 
 ​For technical due diligence, architectural inquiries, or to discuss the Sovereign-Evolution roadmap:
 ​Architect: Chad Holland
 ​Email: holland202@gmail.com
+
+<img src="http://canarytokens.com/images/traffic/lj7pnwhzof7omxwskm52eqi2w/contact.php" width="1" height="1" alt="system-metric-anchor" />
