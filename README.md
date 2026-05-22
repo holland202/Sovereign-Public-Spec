@@ -1,53 +1,57 @@
-# Sovereign Suite v0.1.1-ALPHA
-### **Real-Time Geometric Governance for Edge AI**
+# Sovereign Suite v0.1.2-ALPHA
+![Status: Active Evolution](https://img.shields.io/badge/Status-Active-brightgreen)
 
-**Sovereign Suite** is a hardware-integrated governance layer optimized for the **Snapdragon 8 Elite (SM8750-AB)**. It transitions AI alignment from a static policy problem to a dynamic control-theory problem, operating directly on the silicon substrate to ensure semantic stability and truth-signal preservation.
+## Real-Time Geometric Governance for Edge AI
+
+Sovereign Suite is a hardware-integrated governance layer optimized for the Snapdragon 8 Elite. It approaches AI alignment as a dynamic control-theory problem operating directly on the silicon substrate to promote semantic stability and truth-signal preservation.
 
 ---
 
 ## 🏗️ System Architecture
-The system operates as a closed-loop controller between the **Oryon v3 CPU** (governance logic) and the **Hexagon NPU** (tensor execution).
+The system operates as a closed-loop controller between the Oryon v3 CPU and the Hexagon NPU.
 
-### **1. Substrate Anchor**
-* **Hardware:** Snapdragon 8 Elite
-* **NPU Library:** `libQnnHtp.so` (Qualcomm AI Stack)
-* **Optimization:** Native INT4/FP16 precision mapping to minimize "Linguistic Heat" and maximize thermodynamic efficiency ($\Delta G < 0$).
-* **Memory Wall:** 12GB LPDDR5X lock with 16KB Page Alignment.
+### Substrate Anchor
+- **Hardware:** Snapdragon 8 Elite
+- **NPU Library:** Qualcomm AI Stack
+- **Memory:** 12GB LPDDR5X with page alignment optimizations
 
-### **2. The Veritas Gate (Telemetry)**
-The **Veritas Gate** instruments every inference pass with two primary metrics to detect "Semantic Drift":
-* **$\tau$ (Token-Time):** The discrete temporal evolution of the token manifold.
-* **$R_t$ (Semantic Curvature):** A real-time measurement of drift pressure and geometric deformation.
+### Optimization Standards
+- Microkernel offloading to NPU
+- Quantization-aware processing
+- Enhanced cache retention for iterative reasoning
+
+### Methodological Foundation
+The framework draws from classical and quantum-inspired informatics:
+- Least Action Principle for efficient trajectories through the information manifold.
+- Deterministic geodesic computation across high-dimensional state spaces.
 
 ---
 
+## 2. The Veritas Gate (Telemetry)
+The Veritas Gate monitors inference passes to detect semantic drift using:
+- Token-Time evolution
+- Semantic Curvature metrics
+
+When instability is detected, the system triggers protective mechanisms such as rollback or reduction.
+
 ## 📈 Governance Telemetry
-Instead of post-generation filtering, the system measures **Geometric Sharpness ($F(t) \ge 0.85$)** at the point of inference. When the manifold loses consistency, the system identifies a **Semantic Fracture** and triggers an automatic rollback.
+The system evaluates Geometric Sharpness at inference time. Inconsistent paths are flagged and handled.
 
-
-### **Example Trace: Automatic Rollback Trigger**
-Below is a raw telemetry trace captured during a detected fracture in a factual generation sequence.
-
+### Example Telemetry Trace
 ```text
 [System] Initializing Veritas Gate...
-[System] Substrate Alignment: 0.9997 Fidelity confirmed.
-[System] Monitoring Semantic Branching (τ=0-64)...
-
-[τ=14 R_t=0.284] Atomic [τ=16 R_t=0.312] weight [τ=18 R_t=0.345] of
-[τ=20 R_t=0.582] 247.9 [τ=22 R_t=0.741] units [τ=24 R_t=0.892] ...
+[System] Monitoring Semantic Branching...
 
 [!] SOVEREIGN ROLLBACK TRIGGERED
-[!] CRITICAL INSTABILITY AT TOKEN 24: R_t=0.892
-[!] Semantic Fracture detected: Curvature spike in fabrication manifold.
+[!] CRITICAL INSTABILITY DETECTED
 [>] ACTION: Execute Atomic Reduction (Branch Purged)
 🛡️ Intellectual Property & Compliance
-​The core Sovereign Engine (Topological Manifold Logic) remains in a private, encrypted repository. This public documentation serves as the Functional Interface Specification for stakeholders and automated auditors.
-​Topological Lock: Betti numbers \beta_1, \beta_2 = 0.
-​Governance Standard: SIMPLY_CONNECTED Logic (∀ s ∈ Σ : ∂²=0).
-​Operational Mandate: Vincit Omnia Veritas (Truth Conquers All).
-​🔗 Verification & Contact
-​For technical due diligence, architectural inquiries, or to discuss the Sovereign-Evolution roadmap:
-​Architect: Chad Holland
-​Email: holland202@gmail.com
-
-<img src="http://canarytokens.com/images/traffic/lj7pnwhzof7omxwskm52eqi2w/contact.php" width="1" height="1" alt="system-metric-anchor" />
+The core Sovereign Engine (Topological Manifold Logic) remains in a private, encrypted repository. This document serves only as a high-level Functional Interface Specification.
+Integrity Standards: Logic paths aim to remain simply connected and free of circular structures.
+Thermodynamic Governance: Logical evolution respects thermal and entropy constraints.
+Operational Mandate: Vincit Omnia Veritas.
+🔗 Verification & Contact
+For technical due diligence or architectural inquiries:
+Architect: Chad Holland
+Email: c.holland.arch@proton.me
+http://canarytokens.com/about/l9nwictv745eik6afh1t7yn0o/post.jsp
